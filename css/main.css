@@ -1,3 +1,14 @@
+:root {
+  --blue-accent: #2196f3;
+  --black-primary: #000000;
+  --black-secondary: #212121;
+  --white-primary: #ffffff;
+  --grey-cnt: #757575;
+  --white-secondary-op: rgba(255, 255, 255, 0.6);
+  --background-color: #2f303a;
+  --btn-bg: #f5f4fa;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -12,6 +23,7 @@
 .nav-contacts {
   display: flex;
 }
+
 .header-nav {
   justify-content: space-between;
   align-items: center;
@@ -22,7 +34,7 @@
   margin-right: 50px;
 }
 .nav-list {
-  margin-right: 331px;
+  margin-right: 305px;
   margin-left: 93px;
 }
 
@@ -48,10 +60,22 @@
 .header .header-contact:focus {
   color: var(--blue-accent);
 }
-
+.nav-contacts li:hover,
+.nav-contacts li:focus {
+  fill: var(--blue-accent);
+}
 .header .header-list.current {
   color: var(--blue-accent);
 }
+.envelope {
+  margin-right: 10px;
+  /* fill: var(--grey-cnt); */
+}
+
+.smartphone {
+  margin-right: 10px;
+}
+
 .header .header-contact {
   font-weight: 500;
   font-size: 14px;
@@ -63,6 +87,13 @@
 .hero {
   text-align: center;
   height: 600px;
+  min-width: 1600px;
+  background: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg.jpg);
 }
 .hero-wrapper {
   padding-top: 200px;
@@ -76,7 +107,6 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--white-primary);
-  background-color: var(--background-color);
 }
 .hero .hero-button {
   display: inline-block;
