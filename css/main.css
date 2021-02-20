@@ -262,15 +262,25 @@
 .team-icons li:not(:last-child) {
   margin-right: 10px;
 }
-.team-icons li:hover {
-  background-color: var(--blue-accent);
-  border-radius: 50%;
-}
-.team-icons .soc-icon:hover {
+
+.team-icons li .soc-icon:hover {
   fill: var(--white-primary);
+}
+.link-icon:hover .soc-icon *,
+.link-icon:hover {
+  background-color: var(--blue-accent);
+  fill: var(--white-primary);
+  border-radius: 50%;
 }
 .soc-icon {
   fill: #afb1b8;
+}
+.team-icons a {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
 }
 /* Footer */
 
