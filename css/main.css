@@ -263,17 +263,27 @@
   margin-right: 10px;
 }
 
-.team-icons li .soc-icon:hover {
+/* .team-icons li .soc-icon:hover {
   fill: var(--white-primary);
 }
 .link-icon:hover .soc-icon *,
 .link-icon:hover {
   background-color: var(--blue-accent);
   fill: var(--white-primary);
-  border-radius: 50%;
-}
+  border-radius: 50%; */
 .soc-icon {
   fill: #afb1b8;
+}
+.link-icon:hover,
+.link-icon:focus {
+  background-color: var(--blue-accent);
+  color: var(--white-primary);
+  border-radius: 50%;
+  outline: none;
+}
+.link-icon:hover,
+.link-icon:focus .soc-icon {
+  fill: currentColor;
 }
 .team-icons a {
   display: flex;
@@ -282,6 +292,52 @@
   align-items: center;
   justify-content: center;
 }
+/* Партнеры */
+.partners-logo {
+  display: inline-flex;
+  padding-bottom: 94px;
+}
+
+.partners-title {
+  padding-top: 94px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--black-secondary);
+}
+.partners-logo li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.partners-link {
+  /* margin-right: 30px; */
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-link:hover,
+.partners-link:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  color: var(--blue-accent);
+  fill: var(--blue-accent);
+  outline: none;
+}
+
+.partners-link:hover,
+.partners-link:focus svg {
+  fill: currentColor;
+}
+.partners-link svg {
+  fill: #afb1b8;
+}
+
 /* Footer */
 
 .footer {
