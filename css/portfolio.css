@@ -13,9 +13,7 @@
 .nav-contacts {
   display: flex;
 }
-.header {
-  border-bottom: 1px solid #ececec;
-}
+
 .header-nav {
   justify-content: space-between;
   align-items: center;
@@ -26,7 +24,7 @@
   margin-right: 50px;
 }
 .nav-list {
-  margin-right: 331px;
+  margin-right: 305px;
   margin-left: 93px;
 }
 
@@ -56,6 +54,16 @@
 .header .header-list.current {
   color: var(--blue-accent);
 }
+.envelope {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .header .header-contact {
   font-weight: 500;
   font-size: 14px;
@@ -184,4 +192,45 @@
 .footer .footer-link:hover,
 .footer .footer-link:focus {
   color: var(--blue-accent);
+}
+.footer-cnt {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.footer-soc {
+  margin-left: 70px;
+}
+
+.footer-soc h2 {
+  font-weight: 700;
+  line-height: 1.14px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--white-primary);
+}
+.footer-icon {
+  fill: var(--white-primary);
+}
+.soc-list {
+  margin-top: 20px;
+  display: inline-flex;
+}
+.soc-list a {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.soc-list li + li {
+  margin-left: 10px;
+}
+.soc-list li:hover,
+.soc-list li:focus {
+  background: var(--blue-accent);
+  border-radius: 50%;
 }

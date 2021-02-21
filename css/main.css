@@ -263,14 +263,6 @@
   margin-right: 10px;
 }
 
-/* .team-icons li .soc-icon:hover {
-  fill: var(--white-primary);
-}
-.link-icon:hover .soc-icon *,
-.link-icon:hover {
-  background-color: var(--blue-accent);
-  fill: var(--white-primary);
-  border-radius: 50%; */
 .soc-icon {
   fill: #afb1b8;
 }
@@ -403,7 +395,7 @@
   display: inline-flex;
 }
 .soc-list a {
-  display: flex;
+  display: inline-flex;
   width: 44px;
   height: 44px;
   align-items: center;
