@@ -281,7 +281,7 @@
   border-radius: 50%;
   outline: none;
 }
-.link-icon:hover,
+.link-icon:hover .soc-icon,
 .link-icon:focus .soc-icon {
   fill: currentColor;
 }
@@ -312,7 +312,6 @@
 }
 
 .partners-link {
-  /* margin-right: 30px; */
   display: flex;
   width: 170px;
   height: 90px;
@@ -330,7 +329,7 @@
   outline: none;
 }
 
-.partners-link:hover,
+.partners-link:hover svg,
 .partners-link:focus svg {
   fill: currentColor;
 }
