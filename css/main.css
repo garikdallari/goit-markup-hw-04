@@ -407,8 +407,9 @@
 .soc-list li + li {
   margin-left: 10px;
 }
-.soc-list li:hover,
-.soc-list li:focus {
+.soc-list a:hover,
+.soc-list a:focus {
   background: var(--blue-accent);
   border-radius: 50%;
+  outline: none;
 }
