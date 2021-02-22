@@ -18,6 +18,10 @@
 }
 
 /* header */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-nav,
 .nav-list,
 .nav-contacts {
@@ -85,7 +89,7 @@
 .hero {
   text-align: center;
   height: 600px;
-  min-width: 1600px;
+  max-width: 1600px;
   background: #c4c4c4;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
